@@ -2,7 +2,6 @@
 **Empowering anyone to create hand-drawn art through voice-to-sketch AI and AR projection**  
 
 ![Demo Video](media/demo_video.mp4)  
-*Figure: User tracing an AI-generated sketch projected onto paper via Meta Quest 3.*  
 
 ## Abstract  
 SketchGenie is an augmented reality (AR) drawing assistant that bridges the gap between AI-generated art and human creativity. By combining voice-driven AI generation and AR projection, it converts verbal descriptions into traceable line drawings projected onto physical paper. This system enables users without artistic experience to create personalized handmade artwork by tracing AI-generated outlines.  
@@ -11,7 +10,7 @@ The current implementation consists of two independent modules:
 - **AI Image Generation**: Voice-to-text → GPT-4 prompt enhancement → DALL·E 3 line art generation.  
 - **AR Projection**: Marker-based plane detection → Dynamic projection alignment using OpenCV and Meta Quest 3 passthrough.  
 
-Due to time constraints, full end-to-end integration is incomplete but documented in [Integration Notes](#integration-notes).  
+Due to time constraints, full end-to-end integration is incomplete.  
 
 ---
 
@@ -28,7 +27,7 @@ Due to time constraints, full end-to-end integration is incomplete but documente
 ```
 User Voice → Speech Recognition → GPT-4 Prompt Enhancement → DALL·E 3 Image Generation → AR Projection  
 ```  
-[Image of system architecture (Figure 1 from report)]  
+![Overview of SketchGenie Architecture (Grey sections not completed due to time constraints)](media/pipeline.jpeg)  
 
 ### Core Technologies  
 | Component         | Technology Stack                          |  
@@ -65,21 +64,6 @@ paperPlane.transform.SetPositionAndRotation(worldPos, worldRot);
 
 ---
 
-## How to Run  
-1. Clone the repo:  
-   ```bash  
-   git clone https://github.com/runqiuw/SketchGenie  
-   ```  
-2. Configure dependencies (see [Dependencies](#dependencies)).  
-3. For AI module:  
-   - Set up OpenAI API keys in `.env`.  
-   - Run `demo.py` for standalone image generation tests.  
-4. For AR module:  
-   - Import Unity project from release assets.  
-   - Deploy to Meta Quest 3 via Unity Build Settings.  
-
----
-
 ## Dependencies  
 - **Unity**: 2022.4+ with XR Interaction Toolkit and Meta SDK.  
 - **Python**: For AI module testing (`openai`, `opencv-python`).  
@@ -112,7 +96,7 @@ SketchGenie/
 ---
 
 ## Future Work  
-1. Full AI-AR integration (see [Integration Notes](#integration-notes)).  
+1. Full AI-AR integration.  
 2. Optimize latency with caching or lightweight image generators.  
 3. Improve marker occlusion handling during user interaction.  
 
