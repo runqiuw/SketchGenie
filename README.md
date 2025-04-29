@@ -102,12 +102,8 @@ SketchGenie/
 
 ---
 
-## Team & Contributions  
-| Name           | Role                                       |  
-|----------------|--------------------------------------------|  
-| Yuchen Lu      | AI functionality migration to Unity        |  
-| Runqiu Wang    | Pipeline design, AR environment setup      |  
-| Hudson Hall    | Image projection implementation            |  
+## Team
+Yuchen Lu, Runqiu Wang, Hudson Hall 
 
 ---
 
