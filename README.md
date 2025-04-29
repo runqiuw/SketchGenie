@@ -26,6 +26,7 @@ Due to time constraints, full end-to-end integration is incomplete.
 User Voice → Speech Recognition → GPT-4 Prompt Enhancement → DALL·E 3 Image Generation → AR Projection  
 ```  
 ![Overview of SketchGenie Architecture (Grey sections not completed due to time constraints)](https://github.com/user-attachments/assets/8e1eaa0b-b61d-4da0-b51f-7276470a491f)
+*Overview of SketchGenie Architecture (Grey sections not completed due to time constraints)*
 
 ### Core Technologies  
 | Component         | Technology Stack                          |  
