@@ -1,7 +1,7 @@
 # SketchGenie: AI-Driven AR Drawing Assistant  
 **Empowering anyone to create hand-drawn art through voice-to-sketch AI and AR projection**  
 
-![Demo Video](media/demo_video.mp4)  
+https://github.com/user-attachments/assets/f8eb3b6c-c8fc-4d66-b67c-88652ae75608
 
 ## Abstract  
 SketchGenie is an augmented reality (AR) drawing assistant that bridges the gap between AI-generated art and human creativity. By combining voice-driven AI generation and AR projection, it converts verbal descriptions into traceable line drawings projected onto physical paper. This system enables users without artistic experience to create personalized handmade artwork by tracing AI-generated outlines.  
@@ -25,7 +25,7 @@ Due to time constraints, full end-to-end integration is incomplete.
 ```
 User Voice → Speech Recognition → GPT-4 Prompt Enhancement → DALL·E 3 Image Generation → AR Projection  
 ```  
-![Overview of SketchGenie Architecture (Grey sections not completed due to time constraints)](media/pipeline.jpeg)  
+![Overview of SketchGenie Architecture (Grey sections not completed due to time constraints)](https://github.com/user-attachments/assets/8e1eaa0b-b61d-4da0-b51f-7276470a491f)
 
 ### Core Technologies  
 | Component         | Technology Stack                          |  
